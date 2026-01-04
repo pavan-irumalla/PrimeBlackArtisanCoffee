@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+}
+.Page{
+  background-color: #FCF8E0;
+  width: 100%;
+}
+
+.headerNav{
+  border-radius: 50px;
+  padding: 20px 0 10px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.LogoImg{
+ width: 127px;
+}
+
+.navButton{
+  background: none;
+  border: none;
+  font-family: "Didact Gothic", sans-serif;
+}
+
+.buttonCart{
+  background-color: #452422;
+  color: #fff;
+  width: 100px;
+  height: 38px;
+  padding: 5px 3px;
+  border: none;
+  border-radius: 50px;
+}
+
+/* .ImagesSection {
+  display: grid;
+  grid-template-columns:  25% 25% 25% 25%;
+  gap: 5px;
+}
+.ImagesSection img {
+  width: 100%;
+} */
+
+.ImagesSection{
+ display: flex;
+  gap: 2px;
+
+}
+
+.ImagesSection div{
+ flex: 1;
+}
+.ImagesSection div img{
+ width: 100%;
+}
+
+.secondSection{
+  display: flex;
+  justify-content: space-around;
+  padding: 90px 100px;
+}
+
+h5{
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 700;
+  font-size: 14px;
+}
+p{
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 12px;
+}
+
+.coffeeStoryCards{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.CoffeeStory{
+  background-color: #F5EFD8;
+  padding: 30px;
+  text-align: center;
+}
+
+.coffeeStoryContentHeadings{
+  font-size: medium;
+  padding-bottom: 5px;
+}
+img{
+  width: 100%;
+}
