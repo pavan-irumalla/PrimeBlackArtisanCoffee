@@ -1,0 +1,26 @@
+.coffeeStoryCards{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.CoffeeStory{
+  background-color: #F5EFD8;
+  padding: 30px;
+  text-align: center;
+}
+
+.coffeeStoryContentHeadings{
+  font-size: medium;
+  padding-bottom: 5px;
+}
+.coffeeContentPara{
+  width: 75%;
+  margin: auto;
+}
+
+.coffeeContentImg{
+  width: 100%;
+  margin-top: 20px;
+}
+    

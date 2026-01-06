@@ -58,8 +58,10 @@
 
 .secondSection{
   display: flex;
-  justify-content: space-around;
-  padding: 90px 100px;
+  justify-content: space-between;
+  padding: 90px 0;
+  width: 80%;
+  margin: auto;
 }
 
 h5{
@@ -72,22 +74,89 @@ p{
   font-size: 12px;
 }
 
-.coffeeStoryCards{
+.thirdSection{
+  background-image: url('./assets/storePickupImg.png');
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.storePickupLogo{
+  display: block;
+  padding: 150px 0 0 45px;
+  width: 200px;
+}
+
+.storePickupButton{
+background-color: #fff;
+width: 280px;
+border: none;
+padding: 10px 0;
+}
+
+.coffeeStorySection{
+  width: 80%;
+  margin: auto;
+}
+
+.coffeeStoryTitle{
+  margin: 50px 0;
+}
+
+.giftSection{
   display: flex;
   justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  width: 80%;
   gap: 50px;
+  margin: auto;
 }
-
-.CoffeeStory{
-  background-color: #F5EFD8;
-  padding: 30px;
-  text-align: center;
+.giftSection > div {
+  flex: 1;
 }
-
-.coffeeStoryContentHeadings{
-  font-size: medium;
-  padding-bottom: 5px;
-}
-img{
+.giftSectionImg{
   width: 100%;
 }
+
+.giftSectionPara{
+  margin: 10px 0 12px 0;
+}
+
+.giftSectionButton{
+  background-color: #fff;
+  width: 280px;
+  border: none;
+  padding: 10px 0;
+}
+
+.favoriteItemsSection{
+  width: 80%;
+  margin: auto;
+}
+
+.favoriteItemsTitle{
+  margin: 50px 0;
+}
+
+.favoriteItemsCards{
+  display: grid;
+  grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+  gap: 50px;
+}
+.collectionCards{
+  display: grid;
+  grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+  gap: 50px;
+  row-gap: 50px;
+}
+.collectionCards img{
+  width: 100%;
+}
+.spaceTop {
+  margin-top: 50px;
+}
+/* img{
+  width: 100%;
+} */  

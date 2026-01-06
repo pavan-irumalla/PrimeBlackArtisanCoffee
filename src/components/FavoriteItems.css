@@ -1,0 +1,22 @@
+
+.FavoriteItems{
+  background-color: #F5EFD8;
+  padding: 30px;
+  text-align: center;
+}
+
+.item{
+  font-size: medium;
+  padding-bottom: 5px;
+  margin: 10px;
+}
+.price{
+  width: 75%;
+  margin: auto;
+}
+
+.itemImg{
+  width: 100%;
+  margin-top: 20px;
+}
+    
