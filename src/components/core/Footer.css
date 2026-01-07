@@ -1,0 +1,57 @@
+.footer {
+    width: 80%;
+    margin: auto;
+}
+
+.footerTopContent {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0 50px 0;
+    width: 80%;
+    margin: auto;
+}
+
+.footerTopContent h5 {
+    font-family: "Cinzel Decorative", cursive;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.footerTopContent p {
+    font-family: "Didact Gothic", sans-serif;
+    font-size: 12px;
+}
+
+.footerNav {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 20px 0 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LogoImg {
+    width: 127px;
+}
+
+.designerContent {
+    display: flex;
+    gap: 10px;
+}
+
+.designedBy {
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: "Didact Gothic", sans-serif;
+}
+
+.designedBy h3 {
+font-family: 'Poppins', sans-serif;
+}
+
+.CopyRight {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}

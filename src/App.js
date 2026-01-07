@@ -31,7 +31,7 @@ import img6 from './assets/6.jpg';
 import img7 from './assets/7.jpg';
 import img8 from './assets/8.jpg';
 import img9 from './assets/9.jpg';
-
+import Footer from "./components/core/Footer";
 
 function App() {
   return (
@@ -52,7 +52,7 @@ function App() {
             <PersonIcon />
           </button>
           <button className='buttonCart'>
-            <ShoppingCartIcon />Cart
+            <ShoppingCartIcon /><b>Cart</b>
           </button>
         </span>
       </nav>
@@ -137,7 +137,7 @@ function App() {
         <div><img src={GiftSectionImg} alt='giftSectionImg' className="giftSectionImg" /></div>
         <div className='giftSectionContent'>
           <h5>GIVE A PRIME GIFT</h5>
-          <p className="giftSectionPara">From gift cards to brewing essentials, explore our<br />
+          <p>From gift cards to brewing essentials, explore our<br />
             curated gifts and sets. A thoughtful way to tell the<br />
             coffee lovers in your life you care.</p>
           <button className='giftSectionButton'>Shop Gift Cards</button>
@@ -151,17 +151,17 @@ function App() {
           <FavoriteItems
             imgSrc={signatureEspressoImage}
             item="Signature Espresso"
-            price="280"
+            price="₹ 280"
           />
           <FavoriteItems
             imgSrc={vanillaLatteImage}
             item="Vanilla Latte"
-            price="320"
+            price="₹ 320"
           />
           <FavoriteItems
             imgSrc={coldBrewImage}
             item="Cold Brew"
-            price="350"
+            price="₹ 350"
           />
         </div>
       </div>
@@ -182,6 +182,7 @@ function App() {
         
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

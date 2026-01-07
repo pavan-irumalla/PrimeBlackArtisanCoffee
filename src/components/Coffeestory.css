@@ -11,16 +11,18 @@
 }
 
 .coffeeStoryContentHeadings{
-  font-size: medium;
+  font-size: 14px;
   padding-bottom: 5px;
 }
 .coffeeContentPara{
   width: 75%;
   margin: auto;
+  font-size: 12px;
 }
 
 .coffeeContentImg{
   width: 100%;
+  height: 289px;
   margin-top: 20px;
 }
     

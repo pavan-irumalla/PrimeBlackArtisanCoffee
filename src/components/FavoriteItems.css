@@ -6,17 +6,19 @@
 }
 
 .item{
-  font-size: medium;
+  font-size: 20px;
   padding-bottom: 5px;
   margin: 10px;
 }
 .price{
   width: 75%;
   margin: auto;
+  font-size: 20px;
 }
 
 .itemImg{
-  width: 100%;
+  width: 340px;
+  height: 410px;
   margin-top: 20px;
 }
     
