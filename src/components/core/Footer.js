@@ -24,7 +24,6 @@ const Footer = () => {
         </div>
         <div>
           <h5>24/7 Customer Support</h5>
-          <h5>World-Class Standards.</h5>
           <p>
             Friendly customer support</p>
         </div>

@@ -1,3 +1,4 @@
+import Nav from "./components/core/Nav";
 import "@fontsource/cinzel-decorative";
 import "@fontsource/cinzel-decorative/700.css";
 import "@fontsource/cinzel-decorative/900.css";
@@ -5,9 +6,6 @@ import "@fontsource/didact-gothic";
 import "@fontsource/didact-gothic/400.css";
 import './App.css';
 import logo from './assets/logo.png';
-import SearchIcon from "@mui/icons-material/Search";
-import PersonIcon from "@mui/icons-material/Person";
-import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
 import image1 from './assets/imagesSectionImg1.jpg';
 import image2 from './assets/imagesSectionImg2.jpg';
 import image3 from './assets/imagesSectionImg3.jpg';
@@ -33,29 +31,13 @@ import img8 from './assets/8.jpg';
 import img9 from './assets/9.jpg';
 import Footer from "./components/core/Footer";
 
+
 function App() {
   return (
 
     <div className='Page'>
-      <nav className='headerNav'>
-        <img src={logo} alt='logo' className='LogoImg' />
-        <span>
-          <button className='navButton'>SHOP</button>
-          <button className='navButton'>MENU</button>
-          <button className='navButton'>LOCATIONS</button>
-        </span>
-        <span>
-          <button className='navButton'>
-            <SearchIcon />
-          </button>
-          <button className='navButton'>
-            <PersonIcon />
-          </button>
-          <button className='buttonCart'>
-            <ShoppingCartIcon /><b>Cart</b>
-          </button>
-        </span>
-      </nav>
+      <Nav />
+
       <div className='ImagesSection'>
         <div>
           <img src={image1} alt='image1' />
@@ -183,6 +165,7 @@ function App() {
         </div>
       </div>
       <Footer />
+      
     </div>
   );
 }
